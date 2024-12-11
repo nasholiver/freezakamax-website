@@ -1,0 +1,82 @@
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    background-color: #1e2a38;
+    color: #fff;
+    min-height: 90vh;
+    overflow: hidden;
+  }
+  
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+  .hero-content .highlight {
+    color: #00d4ff;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #dce8f1;
+  }
+  
+  .cta-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    color: #1e2a38;
+    background-color: #00d4ff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #00a3cc;
+    transform: scale(1.1);
+  }
+  
+  .crypto-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #00d4ff, #1e2a38);
+    box-shadow: 0px 4px 15px rgba(0, 212, 255, 0.4);
+  }
+  
+  .hero-visual {
+    max-width: 40%;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-section {
+      flex-direction: column;
+    }
+  
+    .hero-content {
+      max-width: 100%;
+      text-align: center;
+    }
+  
+    .hero-visual {
+      margin-top: 2rem;
+    }
+  }
+  

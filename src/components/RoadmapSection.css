@@ -1,0 +1,116 @@
+.roadmap-section {
+    background-color: #12181f;
+    color: #fff;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .roadmap-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .roadmap-title .highlight {
+    color: #00d4ff;
+  }
+  
+  .roadmap-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+    padding: 1rem 0;
+  }
+  
+  .roadmap-item {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 212, 255, 0.2);
+  }
+  
+  .roadmap-item:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  
+  .roadmap-circle {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #00d4ff, #1e2a38);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    box-shadow: 0px 4px 15px rgba(0, 212, 255, 0.6);
+  }
+  
+  .roadmap-content {
+    text-align: left;
+    max-width: 400px;
+  }
+  
+  .roadmap-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+  }
+  
+  .roadmap-content p {
+    font-size: 1rem;
+    color: #dce8f1;
+  }
+  
+  .roadmap-item:nth-child(even) .roadmap-content {
+    text-align: right;
+  }
+  
+  /* Animated Connecting Line */
+  .roadmap-timeline:before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg, #00d4ff, #1e2a38);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+  }
+  
+  .roadmap-item {
+    position: relative;
+    z-index: 1;
+  }
+  
+  @media (max-width: 768px) {
+    .roadmap-item {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .roadmap-item:nth-child(even) {
+      flex-direction: column;
+    }
+  
+    .roadmap-content {
+      text-align: center;
+    }
+  
+    .roadmap-timeline:before {
+      left: 10px;
+      transform: none;
+    }
+  }
+  
