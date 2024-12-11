@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/freezakamax-website/static/css/main.5bdee1b5.css",
+    "main.js": "/freezakamax-website/static/js/main.623182fb.js",
+    "static/media/model4.jpg": "/freezakamax-website/static/media/model4.e8dcf2e15a1929e4fa2d.jpg",
+    "static/media/model1.jpg": "/freezakamax-website/static/media/model1.13b88618b317679f7aa0.jpg",
+    "static/media/model2.jpg": "/freezakamax-website/static/media/model2.86815dd97372f6325d12.jpg",
+    "static/media/model3.jpg": "/freezakamax-website/static/media/model3.8267cd67b71e31e55b58.jpg",
+    "static/media/Freezakamax.png": "/freezakamax-website/static/media/Freezakamax.f6559cb844b96f1bf8ca.png",
+    "index.html": "/freezakamax-website/index.html",
+    "main.5bdee1b5.css.map": "/freezakamax-website/static/css/main.5bdee1b5.css.map",
+    "main.623182fb.js.map": "/freezakamax-website/static/js/main.623182fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bdee1b5.css",
+    "static/js/main.623182fb.js"
+  ]
+}
